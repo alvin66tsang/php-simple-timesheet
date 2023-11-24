@@ -1,0 +1,51 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.upper {
+    background-color: #ECF9FF;
+    flex: 1;
+    background-image: url('images/sky.jpg');
+    object-fit: cover;
+}
+
+.bottom {
+    background-color: white;
+    flex: 2;
+}
+
+.customForm {
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    background-color: white;
+    transform: translateY(15%);
+    left: 0;
+    right: 0;
+    box-shadow: 0px 10px 13px -7px;
+    min-height: 600px;
+    max-height: 600px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+#alert-container {
+    overflow-wrap: anywhere;
+}
+
+.card-list {
+    max-height: 450px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
